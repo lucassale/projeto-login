@@ -30,6 +30,17 @@ lilás: #5f2c82
         width: 60%;
     }
 
+    div#formulario > h1{
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    div#formulario > p{
+        font-size: .9em;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -52,6 +63,17 @@ lilás: #5f2c82
     section#login > div#formulario{
         float: right;
         width: 60%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        padding-bottom: 10px;
     }
     
 }

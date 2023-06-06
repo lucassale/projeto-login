@@ -66,5 +66,76 @@ div#formulario > p{
     padding-bottom: 10px;
 }
 
+form > div.campo{
+    display: block;
+    background-color: #5f2c82;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
 
+}
 
+span#icone{
+    color: white;
+    height: 100%;
+    width: 40px;
+    font-size: 2em;
+    text-align: center;
+}
+
+form label{
+    display: none;
+}
+
+div.campo > input{
+    background-color: #53b3b0;;
+    height: 40px;
+    width: calc(100% - 45px);
+    border-radius: 5px;
+    transform: translateY(-6px);
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
+
+form input[type=submit]{
+    display: block;
+    background-color: #33706e;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #224a49;
+}
+
+form > a{
+    display: block;
+    background-color: white;
+    color: #33706e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #33706e;
+    border-radius: 5px;
+}
+
+form > a:hover{
+    background-color: #479f9c;
+    color: #224a49;
+}
+
+form > a > span{
+    display: block;
+    font-size: 0.1em;
+}

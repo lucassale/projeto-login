@@ -9,7 +9,7 @@ lilás: #5f2c82
 */
 
 @media screen and (min-width: 710px) and (max-width: 1024px) {
-
+    /* tela de tablet*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -17,6 +17,7 @@ lilás: #5f2c82
     section#login{
         width: 610px;
         transition: ease .3s;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -44,7 +45,7 @@ lilás: #5f2c82
 }
 
 @media screen and (min-width: 1024px){
-
+    /* tela de desktop*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -52,6 +53,8 @@ lilás: #5f2c82
     section#login{
         width: 924px;
         transition: ease .3s;
+        height: 320px;
+        
     }
 
     section#login > div#imagem{
